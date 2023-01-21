@@ -1,0 +1,135 @@
+ads--CDockSplitter::handle {
+    background: palette(dark);
+    height: 1px;
+}
+
+QPushButton#toolbarArrow{
+    border: none;
+    icon: url(:/images/arrow_down.png);
+    background-color: transparent;
+}
+QPushButton#toolbarArrow:checked{
+    icon: url(:/images/arrow_up.png);
+    background-color: transparent;
+}
+QPushButton#toolbarArrow:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#toolbarArrow:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+
+QWidget#ssp_widget_top{
+    background-color: rgba(230, 230, 230, 1);
+}
+
+QPushButton#pushButton_openSerialPort{
+    border: none;
+    icon: url(:/images/disconnected.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_openSerialPort:checked{
+    icon: url(:/images/connected.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_openSerialPort:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#pushButton_openSerialPort:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+QPushButton#pushButton_autoOpen{
+    border: none;
+    icon: url(:/images/A_off.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_autoOpen:checked{
+    icon: url(:/images/A_on.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_autoOpen:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#pushButton_autoOpen:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+QPushButton#pushButton_clearSerialPortData{
+    border: none;
+    icon: url(:/images/clear.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_clearSerialPortData:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#pushButton_clearSerialPortData:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+QPushButton#pushButton_serialPortSettings{
+    border: none;
+    icon: url(:/images/settings_on.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_serialPortSettings:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#pushButton_serialPortSettings:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+QPushButton#pushButton_ssp_rx_save{
+    border: none;
+    icon: url(:/images/save.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_ssp_rx_save:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#pushButton_ssp_rx_save:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+QPushButton#pushButton_ssp_rx_settings{
+    border: none;
+    icon: url(:/images/settings_off.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_ssp_rx_settings:checked{
+    border: none;
+    icon: url(:/images/settings_on.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_ssp_rx_settings:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#pushButton_ssp_rx_settings:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+QWidget#widget_rx_settings,#widget_tx_settings{
+    background-color: white
+}
+
+QPushButton#pushButton_ssp_tx_settings{
+    border: none;
+    icon: url(:/images/settings_off.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_ssp_tx_settings:checked{
+    border: none;
+    icon: url(:/images/settings_on.png);
+    background-color: transparent;
+}
+QPushButton#pushButton_ssp_tx_settings:hover{
+    background-color:rgba(211, 211, 211, 0.4);
+}
+QPushButton#pushButton_ssp_tx_settings:pressed{
+    background-color:rgba(211, 211, 211, 0.7);
+}
+
+QWidget#ssp_widget_bottom{
+    background-color: rgb(230, 230, 230);
+}

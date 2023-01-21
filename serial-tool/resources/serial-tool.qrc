@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/pin.png</file>
+        <file>images/settings.png</file>
+        <file>images/unpin.png</file>
+        <file>images/add_new.png</file>
+        <file>icon.ico</file>
+        <file>images/close_window.png</file>
+        <file>images/arrow_down.png</file>
+        <file>images/arrow_up.png</file>
+        <file>qss/default.qss</file>
+        <file>images/connected.png</file>
+        <file>images/disconnected.png</file>
+        <file>images/clear.png</file>
+        <file>font/sarasa-mono-sc-regular.ttf</file>
+        <file>images/left.png</file>
+        <file>images/right.png</file>
+        <file>images/settings_off.png</file>
+        <file>images/settings_on.png</file>
+        <file>images/save.png</file>
+        <file>images/A_off.png</file>
+        <file>images/A_on.png</file>
+        <file>images/close_all.png</file>
+        <file>images/open.png</file>
+        <file>images/save_all.png</file>
+        <file>translations/serial-tool_zh.qm</file>
+        <file>translations/serial-tool_en.qm</file>
+    </qresource>
+</RCC>
